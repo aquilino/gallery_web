@@ -36,10 +36,9 @@ header div:first-child {
   
 
 /* Estilos de la sección Hero */
+/* Estilos de la sección Hero */
 .hero {
-	background-color: #222;
-	background-size: cover;
-	background-position: center;
+	background-color: #333;
 	height: 100vh;
 	display: flex;
 	justify-content: center;
@@ -61,6 +60,25 @@ header div:first-child {
 	max-width: 600px;
 	margin: 0 auto 40px;
   }
+  
+  /* Estilos de la llamada a la acción */
+  .btn-cta {
+	display: inline-block;
+	background-color: #fff;
+	color: #333;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 15px 30px;
+	border-radius: 5px;
+	transition: all 0.3s ease;
+  }
+  
+  .btn-cta:hover {
+	background-color: #333;
+	color: #fff;
+  }
+  
   
   /* Estilos de la llamada a la acción */
   .btn-cta {
