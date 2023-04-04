@@ -33,9 +33,7 @@ header div:first-child {
 	text-decoration: none; /* Quitamos la subrayado del enlace */
 	font-weight: bold; /* Negrita para resaltar el texto */
   }
-  
 
-/* Estilos de la sección Hero */
 /* Estilos de la sección Hero */
 .hero {
 	background-color: #333;
